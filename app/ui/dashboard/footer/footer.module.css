@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  color: var(--textSoft);
+}
+.LogoImgBox {
+  width: 14%;
+}
+.logo {
+  height: auto;
+  width: 100%;
+}
+.text {
+  font-size: 12px;
+}

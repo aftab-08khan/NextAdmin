@@ -1,3 +1,4 @@
+"use-client";
 import Pagination from "@/app/ui/dashboard/pagination/pagination";
 import Search from "@/app/ui/dashboard/search/search";
 import Image from "next/image";
@@ -45,7 +46,7 @@ const ProductsPage = () => {
             <td>76</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/products/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     View
                   </button>

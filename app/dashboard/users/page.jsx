@@ -1,3 +1,4 @@
+"use-client";
 import React from "react";
 import styles from "@/app/ui/dashboard/users/users.module.css";
 import Search from "@/app/ui/dashboard/search/search";
@@ -45,7 +46,7 @@ const User = () => {
             <td>active</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/users/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     View
                   </button>

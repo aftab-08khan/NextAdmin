@@ -6,6 +6,7 @@ import Link from "next/link";
 import React from "react";
 import productImg from "../../../public/noproduct.jpg";
 import styles from "@/app/ui/dashboard/products/products.module.css";
+import { fetchUsers } from "@/app/lib/data";
 const ProductsPage = () => {
   return (
     <div className={styles.container}>
